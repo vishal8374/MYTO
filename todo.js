@@ -1,6 +1,6 @@
 
 const name = prompt("Enter your Name");
-   document.querySelector('header').innerHTML =name+' '+"Todo Lists";
+   document.querySelector('header').innerContent =name+' '+"Todo Lists";
   
 
 

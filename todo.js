@@ -113,6 +113,8 @@ function removeLocalTodos(todo) {
 function getTodos() {
   
     const name = prompt("Enter your Name");
+   document.querySelector('header').innertext =name+' '+"Todo Lists';
+  
   
     let todos;
   if (localStorage.getItem("todos") === null) {

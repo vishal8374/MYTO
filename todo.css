@@ -4,13 +4,18 @@
     box-sizing: border-box;
   }
   body {
-    background-image: linear-gradient(black,rgb(0,0,255));
+    background-image: linear-gradient(to bottom,white,cyan);
     color: white;
     font-family: "Poppins", sans-serif;
     min-height: 100vh;
+    border:2px solid #ff6f47;
   }
   header {
     font-size: 2rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: oblique;
+    text-decoration: underline;
+    color:navy;
   }
   
   header,
@@ -31,7 +36,7 @@
     color: #ff6f47;
     background: #f7fffe;
     cursor: pointer;
-    transition: all 0.3s ease;
+    transition: all 0.3s linear;
   }
   form button:hover {
     background: #ff6f47;

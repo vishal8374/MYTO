@@ -2,6 +2,7 @@ const name = prompt("Enter your Name");
 document.querySelector('header').innerText =  name +" " + 'ToDo List'  ;
 
 
+
 const todoInput = document.querySelector(".todo-input");
 const todoButton = document.querySelector(".todo-button");
 const todoList = document.querySelector(".todo-list");
@@ -121,8 +122,6 @@ function removeLocalTodos(todo) {
 
 
 function getTodos() {
-  
-  
   
     let todos;
   if (localStorage.getItem("todos") === null) {

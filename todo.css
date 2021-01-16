@@ -4,11 +4,11 @@
     box-sizing: border-box;
   }
   body {
-    background-image: linear-gradient(to bottom,white,cyan);
+    background-image: linear-gradient(to bottom,white,rgba(0,32,221,255));
     color: white;
     font-family: "Poppins", sans-serif;
     min-height: 100vh;
-    border:2px solid #ff6f47;
+    border:12px solid black;
   }
   header {
     font-size: 2rem;
@@ -16,6 +16,7 @@
     font-style: oblique;
     text-decoration: underline;
     color:navy;
+    font-weight: bolder;
   }
   
   header,
@@ -76,7 +77,7 @@
     color: white;
     border: none;
     padding: 1rem;
-    cursor: pointer;
+    cursor:progress;
     font-size: 1rem;
   }
   .complete-btn {

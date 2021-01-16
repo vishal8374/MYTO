@@ -1,5 +1,5 @@
 const name = prompt("Enter your Name");
-document.querySelector('header').innerText =  name +" " + 'ToDo App'  ;
+document.querySelector('header').innerText =  name +" " + 'ToDo List'  ;
 
 
 const todoInput = document.querySelector(".todo-input");

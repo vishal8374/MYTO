@@ -1,5 +1,5 @@
 const name = prompt("Enter your Name");
-document.querySelector('header').innerText =  name +" " + 'ToDo App'  ;
+document.querySelector('header').innerText =  name +" " + 'ToDo List'  ;
 
 
 
@@ -114,8 +114,7 @@ function removeLocalTodos(todo) {
 
 function getTodos() {
   
-    const name = prompt("Enter your Name");
-  
+    
     let todos;
   if (localStorage.getItem("todos") === null) {
     todos = [];
